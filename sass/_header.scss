@@ -1,4 +1,40 @@
 .header{
-    width: 85vw;
+    width: 84vw;
     height: 48rem;
+    margin: 2.7rem auto;  
+  
+    display: flex;
+    justify-content: space-between;
+
+
+    &__discription{
+        width:40vw;
+        height: 48rem; 
+          
+    }
+    &__pic{
+        width:40vw;
+        height: 48rem;
+        background-color: orange;
+    }
+    &__rectangle{
+        position: absolute;
+        width: 309.94px;
+        height: 928.7px;
+
+
+        background: linear-gradient(180deg, rgba(251, 168, 28, 0.1066) 0%, rgba(224, 86, 136, 0.0615) 100%);
+        filter: blur(199.107px);
+        border-radius: 154.972px;
+        transform: rotate(65.71deg);
+
+    }
+
+    &__btn{
+        width: 13.6rem;
+        height: 3.8rem;
+        background: #5454D4;
+        color: white;
+        margin-left: 12rem;
+    }
 }
