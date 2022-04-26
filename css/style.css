@@ -76,7 +76,7 @@ a {
   line-height: 5.3rem;
   letter-spacing: 0em;
   text-align: left;
-  margin: 8rem auto; }
+  margin: 1rem auto 1rem 12rem; }
 
 .heading4 {
   font-family: 'Nunito Sans';
@@ -209,17 +209,17 @@ a {
 
 .service {
   width: 84vw;
-  height: 54rem;
+  height: 56rem;
   margin: 6rem auto; }
   .service__cards {
     width: 84vw;
-    height: 21rem;
+    height: 19rem;
     margin: 1rem auto;
     display: flex;
     justify-content: space-around; }
   .service__card {
     width: 25.5rem;
-    height: 20rem; }
+    height: 18rem; }
   .service__icon {
     width: 45.79px;
     height: 45.79px;
@@ -266,6 +266,16 @@ a {
     margin-top: 17rem;
     background: url(../img/pc3.png);
     border-radius: 8px; }
+  .potofolio__circle {
+    width: 6.2rem;
+    height: 7.3rem;
+    transform: rotate(-27.37deg);
+    margin-top: 4rem;
+    margin-right: 4rem; }
+  .potofolio__heading {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between; }
 
 .contact {
   width: 84vw;

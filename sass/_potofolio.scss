@@ -33,5 +33,19 @@
         background: url(../img/pc3.png);       
         border-radius: 8px;
     }
+    &__circle{
+        width: 6.2rem;
+        height: 7.3rem;
+        transform: rotate(-27.37deg);
+        margin-top: 4rem;
+        margin-right: 4rem;
+        
+    }
+    &__heading{
+        height: 8rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
 
 }
