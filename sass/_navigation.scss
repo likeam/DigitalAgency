@@ -1,0 +1,55 @@
+.navigation{
+    width: 84vw;
+    height: 3rem;
+    margin: 2.7rem auto;    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo-box{
+        width: 8.8rem;
+        height: 2.7rem;
+        
+    }
+   
+
+    &__list{
+        width: 27rem;
+        height: 1.6rem;  
+        list-style: none;     
+
+        display: flex;
+        justify-content: space-between;       
+    }
+
+    &__btn{
+        width: 10.5rem;
+        height: 3rem;        
+        font-family: Nunito Sans;
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.4rem;        
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    &__logo{
+        width: 8.8rem;
+        height: 2.7rem;       
+    }
+
+    &__item{
+        font-family: Nunito Sans;
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.6rem;
+        text-align: right;
+        text-decoration: none;
+        color: white;
+    }
+}
