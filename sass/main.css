@@ -294,10 +294,26 @@ a {
       justify-content: space-around;
 }
 
-.potofolio__card {
-  width: 223px;
-  height: 167.91px;
-  background: url(image.png);
+.potofolio__card1 {
+  width: 22rem;
+  height: 17rem;
+  background: url(../img/pc1.png);
+  border: 8px solid red;
+  border-radius: 8px;
+}
+
+.potofolio__card2 {
+  width: 22rem;
+  height: 17rem;
+  background: url(../img/pc2.png);
+  border: 8px solid red;
+  border-radius: 8px;
+}
+
+.potofolio__card3 {
+  width: 22rem;
+  height: 17rem;
+  background: url(../img/pc3.png);
   border: 8px solid red;
   border-radius: 8px;
 }

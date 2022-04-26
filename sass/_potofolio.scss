@@ -9,12 +9,30 @@
         display: flex;
         justify-content: space-around;
     }
-    &__card{
-        width: 223px;
-        height: 167.91px;
+    &__card1{
+        width: 22rem;
+        height: 17rem;
        
 
-        background: url(image.png);
+        background: url(../img/pc1.png);
+        border: 8px solid red;
+        border-radius: 8px;
+    }
+    &__card2{
+        width: 22rem;
+        height: 17rem;
+       
+
+        background: url(../img/pc2.png);
+        border: 8px solid red;
+        border-radius: 8px;
+    }
+    &__card3{
+        width: 22rem;
+        height: 17rem;
+       
+
+        background: url(../img/pc3.png);
         border: 8px solid red;
         border-radius: 8px;
     }
