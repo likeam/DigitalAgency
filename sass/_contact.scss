@@ -1,0 +1,18 @@
+.contact{
+    width: 84vw;
+    height: 33rem;
+    margin: 4rem auto;
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__btn{
+        width: 13.4rem;
+        height: 4rem;
+        color: white;
+        background: #5454D4;
+        border-radius: 2.6px;
+    }
+}

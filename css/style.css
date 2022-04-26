@@ -192,10 +192,12 @@ a {
 .service {
   width: 84vw;
   height: 54rem;
+  margin: 4rem auto;
   background-color: burlywood; }
   .service__cards {
     width: 84vw;
     height: 21rem;
+    margin: 4rem auto;
     display: flex;
     justify-content: space-around; }
   .service__card {
@@ -208,7 +210,8 @@ a {
 
 .potofolio {
   width: 84vw;
-  height: 41.5rem; }
+  height: 41.5rem;
+  margin: 4rem auto; }
   .potofolio__cards {
     width: 84vw;
     height: 28rem;
@@ -232,3 +235,18 @@ a {
     background: url(../img/pc3.png);
     border: 8px solid red;
     border-radius: 8px; }
+
+.contact {
+  width: 84vw;
+  height: 33rem;
+  margin: 4rem auto;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .contact__btn {
+    width: 13.4rem;
+    height: 4rem;
+    color: white;
+    background: #5454D4;
+    border-radius: 2.6px; }

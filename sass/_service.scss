@@ -1,12 +1,14 @@
 .service{
     width: 84vw;
     height: 54rem;
+    margin: 4rem auto;
     background-color: burlywood;
 
     
     &__cards{
         width: 84vw;
         height: 21rem;
+        margin: 4rem auto;
 
         display: flex;
         justify-content: space-around;
