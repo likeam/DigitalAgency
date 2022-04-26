@@ -1,40 +1,36 @@
 .potofolio{
-    width: 84vw;
-    height: 41.5rem;
+    width: 74vw;
+    height: 45rem;
     margin: 4rem auto;
 
     &__cards{
-        width: 84vw;
-        height: 28rem;
-       
+        width: 64vw;
+        height: 30rem;
+        padding: 2rem;
+        margin: 1rem auto;
+        
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;       
     }
     &__card1{
         width: 22rem;
         height: 17rem;
-       
-
+        margin-top: -2rem;
         background: url(../img/pc1.png);
-        border: 8px solid red;
         border-radius: 8px;
     }
     &__card2{
         width: 22rem;
         height: 17rem;
-       
-
+        margin-top: 8rem;
         background: url(../img/pc2.png);
-        border: 8px solid red;
         border-radius: 8px;
     }
     &__card3{
         width: 22rem;
         height: 17rem;
-       
-
-        background: url(../img/pc3.png);
-        border: 8px solid red;
+        margin-top: 17rem;
+        background: url(../img/pc3.png);       
         border-radius: 8px;
     }
 

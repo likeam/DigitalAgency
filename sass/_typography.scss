@@ -1,7 +1,7 @@
 .heading1{
     font-family: 'Nunito Sans';
     font-style: bold;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 5.3rem;
     line-height: 5.6rem;
     color: #FFFFFF;
@@ -12,14 +12,26 @@
 .heading2{
     font-family: 'Nunito Sans';
     font-style: bold;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 4rem;
-    line-height: 4.6rem;
+    line-height: 5rem;
     width: 40vw;
     text-align: left;
     color: #FFFFFF;
     padding-right: 18rem;
-    background-color: blue;
+    
+}
+.heading2__1{
+    font-family: 'Nunito Sans';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 5rem;
+    width: 40vw;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0rem 18rem;
+    
 }
 .heading3{
     font-family: 'Nunito Sans';
@@ -29,6 +41,15 @@
     letter-spacing: 0em;    
     text-align: center;
     margin: 4rem auto;
+}
+.heading3__1{
+    font-family: 'Nunito Sans';
+    font-size: 3.8rem;
+    font-weight: 900;
+    line-height: 5.3rem;
+    letter-spacing: 0em;    
+    text-align: left;
+    margin: 8rem auto;
 
 }
 .heading4{
@@ -58,13 +79,13 @@
     
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.4rem;
     line-height: 26px;
     letter-spacing: -0.43573px;
     width: 40vw;
     color: rgba(255, 255, 255, 0.7);
-    background-color: blueviolet;
+  
 }
 .heading8{
     font-family: 'Nunito Sans';
@@ -72,7 +93,7 @@
     font-weight: 400;
     font-size: 13.2738px;
     line-height: 19px;
-    /* or 140% */
+    padding: 1rem 3rem;
 
     text-align: center;
     letter-spacing: -0.331985px;

@@ -48,14 +48,27 @@ a {
 .heading2 {
   font-family: 'Nunito Sans';
   font-style: bold;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 4rem;
-  line-height: 4.6rem;
+  line-height: 5rem;
   width: 40vw;
   text-align: left;
   color: #FFFFFF;
   padding-right: 18rem;
-  background-color: blue;
+}
+
+.heading2__1 {
+  font-family: 'Nunito Sans';
+  font-style: bold;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 5rem;
+  width: 40vw;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 1rem auto;
+  background-color: brown;
+  padding-left: -4rem;
 }
 
 .heading3 {
@@ -93,13 +106,12 @@ a {
 .heading7 {
   font-family: 'Nunito Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.4rem;
   line-height: 26px;
   letter-spacing: -0.43573px;
   width: 40vw;
   color: rgba(255, 255, 255, 0.7);
-  background-color: blueviolet;
 }
 
 .heading8 {
@@ -108,7 +120,7 @@ a {
   font-weight: 400;
   font-size: 13.2738px;
   line-height: 19px;
-  /* or 140% */
+  padding: 1rem 3rem;
   text-align: center;
   letter-spacing: -0.331985px;
   color: rgba(255, 255, 255, 0.7);
@@ -224,7 +236,6 @@ a {
   width: 84vw;
   height: 57rem;
   margin: 4rem auto;
-  background-color: orangered;
 }
 
 .cta__text {
@@ -234,15 +245,14 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .cta__bg {
   width: 84vw;
-  height: 44.5rem;
-  background: url(../img/ctapic1.png);
+  height: 54rem;
+  margin-top: -6rem;
+  background: url(../img/ctapic4.png);
+  background-size: cover;
 }
 
 .cta__play {
@@ -271,14 +281,27 @@ a {
 }
 
 .service__card {
-  width: 26vw;
+  width: 25.5rem;
   height: 20rem;
 }
 
 .service__icon {
   width: 45.79px;
   height: 45.79px;
-  margin: 1rem 2rem 1rem 18rem;
+  margin: 1rem 1rem 1rem 10rem;
+}
+
+.service__play {
+  width: 7rem;
+  height: 8rem;
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+
+.service__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .potofolio {
