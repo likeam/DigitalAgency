@@ -1,0 +1,24 @@
+.cta{
+    width: 84vw;
+    height: 57rem;
+    margin: 4rem auto;
+    background-color: orangered;
+
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__bg{
+        width: 84vw;
+        height: 44.5rem;
+        background: url(../img/ctapic1.png);
+        // background-size: 100%;
+    }
+    &__play{
+        width: 8.23rem;
+        height: 8.23rem;
+        margin: 18rem 65rem;
+        cursor: pointer;
+    }
+}

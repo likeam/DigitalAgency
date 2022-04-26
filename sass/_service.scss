@@ -1,0 +1,23 @@
+.service{
+    width: 84vw;
+    height: 54rem;
+    background-color: burlywood;
+
+    
+    &__cards{
+        width: 84vw;
+        height: 21rem;
+
+        display: flex;
+        justify-content: space-around;
+    }
+    &__card{
+        width: 26vw;
+        height: 20rem;
+    }
+    &__icon{
+        width: 45.79px;
+        height: 45.79px;
+        margin: 1rem 2rem 1rem 18rem;
+    }
+}

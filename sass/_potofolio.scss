@@ -1,0 +1,22 @@
+.potofolio{
+    width: 84vw;
+    height: 41.5rem;
+
+    &__cards{
+        width: 84vw;
+        height: 28rem;
+       
+        display: flex;
+        justify-content: space-around;
+    }
+    &__card{
+        width: 223px;
+        height: 167.91px;
+       
+
+        background: url(image.png);
+        border: 8px solid red;
+        border-radius: 8px;
+    }
+
+}
