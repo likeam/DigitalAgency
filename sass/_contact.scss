@@ -1,17 +1,29 @@
 .contact{
     width: 84vw;
     height: 33rem;
-    margin: 4rem auto;
+    margin: 12rem auto;
     
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+    &__heading{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
     &__btn{
         width: 13.4rem;
         height: 4rem;
         color: white;
         background: #5454D4;
         border-radius: 2.6px;
+    }
+    &__circle{
+        width: 6.2rem;
+        height: 7.3rem;
+        transform: rotate(-27.37deg);
+        margin-top: 8rem;
+        text-align: left;
+        
+    }
+    &__plus{
+        margin-left: 130rem;
     }
 }

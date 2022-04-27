@@ -27,6 +27,14 @@ a {
   color: white;
   text-decoration: none; }
 
+.rect1 {
+  width: 309.94px;
+  height: 818.86px;
+  background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.1134) 100%);
+  filter: blur(199.107px);
+  border-radius: 154.972px;
+  transform: rotate(-54.37deg); }
+
 .heading1 {
   font-family: 'Nunito Sans';
   font-style: bold;
@@ -171,27 +179,42 @@ a {
     height: 48rem; }
   .header__pic {
     width: 40vw;
-    height: 48rem;
-    background-color: orange; }
+    height: 48rem; }
   .header__rectangle {
-    position: absolute;
-    width: 309.94px;
-    height: 928.7px;
-    background: linear-gradient(180deg, rgba(251, 168, 28, 0.1066) 0%, rgba(224, 86, 136, 0.0615) 100%);
-    filter: blur(199.107px);
-    border-radius: 154.972px;
-    transform: rotate(65.71deg); }
+    width: 40vw;
+    height: 48rem;
+    margin-top: -10rem; }
   .header__btn {
     width: 13.6rem;
     height: 3.8rem;
     background: #5454D4;
     color: white;
     margin-left: 12rem; }
+  .header__play {
+    width: 7rem;
+    height: 8rem;
+    margin-top: -12rem; }
+  .header__cross {
+    width: 4rem;
+    height: 4rem;
+    margin-top: -4rem;
+    margin-left: 40rem;
+    transform: rotate(-31.42deg); }
+  .header__circle {
+    width: 6.2rem;
+    height: 7.3rem;
+    transform: rotate(-27.37deg);
+    margin-top: 4rem;
+    margin-left: 38rem; }
+  .header__zig {
+    width: 63.05px;
+    height: 18.58px;
+    margin-right: 2rem; }
 
 .cta {
   width: 84vw;
   height: 57rem;
-  margin: 6rem auto; }
+  margin: 12rem auto; }
   .cta__text {
     display: flex;
     justify-content: space-between; }
@@ -280,13 +303,22 @@ a {
 .contact {
   width: 84vw;
   height: 33rem;
-  margin: 4rem auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  margin: 12rem auto; }
+  .contact__heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
   .contact__btn {
     width: 13.4rem;
     height: 4rem;
     color: white;
     background: #5454D4;
     border-radius: 2.6px; }
+  .contact__circle {
+    width: 6.2rem;
+    height: 7.3rem;
+    transform: rotate(-27.37deg);
+    margin-top: 8rem;
+    text-align: left; }
+  .contact__plus {
+    margin-left: 130rem; }
