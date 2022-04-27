@@ -5,25 +5,38 @@
   
     display: flex;
     justify-content: space-between;
+    @include respond(phone) {
+        display: block;
+        height: 98rem;
+    }
 
 
     &__discription{
         width:40vw;
         height: 48rem; 
+    
           
     }
     &__pic{
         width:40vw;
         height: 48rem;
+
+        @include respond(phone) {
+            margin: 1rem auto;
+            width: 84vw;
+        }
         // background-image: url(../img/headpicture.svg);
         
       
     }
     &__rectangle{
         
-        width:40vw;
+        width:84vw;
         height: 48rem;
-        margin-top: -10rem;       
+        margin-top: -10rem; 
+        @include respond(phone) {           
+            margin-top: -12rem;
+        }       
     }
 
     &__btn{
@@ -33,10 +46,20 @@
         color: white;
         margin-left: 12rem;
         margin-top: 4rem;
+        @include respond(phone) {
+            
+            margin-left: 1rem;
+            margin-top: 2rem;
+        } 
     }
     &__play{
         width: 7rem;
-        height: 8rem;      
+        height: 8rem; 
+        @include respond(phone) {
+            
+            margin-left: 1rem;
+            margin-top: -6rem;
+        }      
        
     }
     &__cross{
@@ -45,6 +68,11 @@
         margin-top: -4rem;
         margin-left: 40rem;
         transform: rotate(-31.42deg);
+        @include respond(phone) {
+            
+            margin-left: 16rem;
+            margin-top: -4rem;
+        } 
       
     }
     &__circle{
@@ -53,11 +81,22 @@
         transform: rotate(-27.37deg);
         margin-top: 4rem;
         margin-left: 38rem;
+        @include respond(phone) {
+            
+            margin-left: 12rem;
+            margin-top: 2rem;
+        } 
         
     }
     &__zig{
         width: 63.05px;
         height: 18.58px;
-        margin-right: 2rem;               
+        margin-right: 2rem; 
+
+        @include respond(phone) {
+            margin-top: -4rem;           
+            margin-right: 4rem;
+        } 
+        
     }
 }

@@ -2,6 +2,13 @@
     width: 74vw;
     height: 45rem;
     margin: 4rem auto;
+    @include respond(tab-port) {
+        height: 55rem;
+    } 
+    @include respond(phone) {
+        height: 90rem;    
+        
+    }  
 
     &__cards{
         width: 64vw;
@@ -10,7 +17,11 @@
         margin: 1rem auto;
         
         display: flex;
-        justify-content: space-evenly;       
+        justify-content: space-evenly;  
+        @include respond(phone) {
+            display: block;         
+            
+        }     
     }
     &__card1{
         width: 22rem;
@@ -18,6 +29,10 @@
         margin-top: -2rem;
         background: url(../img/pc1.png);
         border-radius: 8px;
+        @include respond(phone) {
+            
+            margin-top: 2rem;
+        }  
     }
     &__card2{
         width: 22rem;
@@ -25,6 +40,10 @@
         margin-top: 8rem;
         background: url(../img/pc2.png);
         border-radius: 8px;
+        @include respond(phone) {
+            
+            margin-top: 2rem;
+        }  
     }
     &__card3{
         width: 22rem;
@@ -32,6 +51,10 @@
         margin-top: 17rem;
         background: url(../img/pc3.png);       
         border-radius: 8px;
+        @include respond(phone) {
+            
+            margin-top: 2rem;
+        }  
     }
     &__circle{
         width: 6.2rem;
@@ -45,7 +68,19 @@
         height: 8rem;
         display: flex;
         justify-content: space-between;
-        
+        @include respond(tab-port) {
+            margin-bottom: 8rem;
+        }
+       
     }
-
+    &__zig{
+        width: 63.05px;
+        height: 18.58px;
+        margin-right: 2rem; 
+        @include respond(phone) {
+            
+            margin-top: 30rem;
+        }               
+    }
 }
+

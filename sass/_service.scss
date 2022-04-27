@@ -2,6 +2,10 @@
     width: 84vw;
     height: 56rem;
     margin: 6rem auto;
+    @include respond(phone) {
+       
+        height: 180rem;
+    }
 
 
     
@@ -12,6 +16,10 @@
 
         display: flex;
         justify-content: space-around;
+        @include respond(phone) {
+            display: block;
+            
+        }
     }
     &__card{
         width: 25.5rem;
@@ -35,6 +43,7 @@
         transform: rotate(-31.42deg);
     }
     &__heading{
+       
         display: flex;
     }
 }

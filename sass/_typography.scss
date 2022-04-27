@@ -8,6 +8,10 @@
     width: 38rem;
     text-align: left;
     margin: 8rem auto 1rem auto;
+    @include respond(phone) {
+            
+        font-size: 4.2rem;
+    } 
 }
 .heading2{
     font-family: 'Nunito Sans';
@@ -19,6 +23,15 @@
     text-align: left;
     color: #FFFFFF;
     padding-right: 18rem;
+    @include respond(tab-port) {
+        font-size: 3rem;
+        width: 60vw;
+    }
+    @include respond(phone) {
+            
+        width: 84vw;
+        padding: .5rem;
+    } 
     
 }
 .heading2__1{
@@ -31,7 +44,10 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0rem 18rem;
-    
+    @include respond(tab-port) {
+        font-size: 3rem;
+        width: 70vw;
+    }
 }
 .heading3{
     font-family: 'Nunito Sans';
@@ -50,6 +66,9 @@
     letter-spacing: 0em;    
     text-align: left;
     margin: 1rem auto 1rem 12rem;
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
 
 }
 .heading4{
@@ -74,6 +93,9 @@
     color: rgba(255, 255, 255, 0.7);
     width: 35rem;
     margin: 2rem auto;
+    @include respond(phone) {
+            font-size: 1.6rem;
+    } 
 }
 .heading7{
     
@@ -85,6 +107,13 @@
     letter-spacing: -0.43573px;
     width: 40vw;
     color: rgba(255, 255, 255, 0.7);
+    @include respond(phone) {
+            
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+        width: 84vw;
+    } 
   
 }
 .heading8{

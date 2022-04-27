@@ -2,11 +2,21 @@
     width: 84vw;
     height: 57rem;
     margin: 12rem auto;
+    @include respond(phone) {
+            
+       height: 70rem;
+    } 
+    
   
 
     &__text{
         display: flex;
         justify-content: space-between;
+        background-color: chartreuse;
+        @include respond(phone) {
+            display: block;
+            height: 18rem;
+        } 
         
     }
     &__bg{
@@ -15,6 +25,11 @@
         margin-top: -6rem;
         background: url(../img/ctapic4.png);
         background-size: cover;
+        @include respond(phone) {
+            
+          
+            margin-top: 2rem;
+        } 
     }
     &__play{
         width: 8.23rem;

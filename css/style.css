@@ -37,6 +37,9 @@ a {
   width: 38rem;
   text-align: left;
   margin: 8rem auto 1rem auto; }
+  @media only screen and (max-width: 600px) {
+    .heading1 {
+      font-size: 4.2rem; } }
 
 .heading2 {
   font-family: 'Nunito Sans';
@@ -48,6 +51,14 @@ a {
   text-align: left;
   color: #FFFFFF;
   padding-right: 18rem; }
+  @media only screen and (max-width: 900px) {
+    .heading2 {
+      font-size: 3rem;
+      width: 60vw; } }
+  @media only screen and (max-width: 600px) {
+    .heading2 {
+      width: 84vw;
+      padding: .5rem; } }
 
 .heading2__1 {
   font-family: 'Nunito Sans';
@@ -59,6 +70,10 @@ a {
   text-align: center;
   color: #FFFFFF;
   margin: 0rem 18rem; }
+  @media only screen and (max-width: 900px) {
+    .heading2__1 {
+      font-size: 3rem;
+      width: 70vw; } }
 
 .heading3 {
   font-family: 'Nunito Sans';
@@ -77,6 +92,9 @@ a {
   letter-spacing: 0em;
   text-align: left;
   margin: 1rem auto 1rem 12rem; }
+  @media only screen and (max-width: 900px) {
+    .heading3__1 {
+      font-size: 3rem; } }
 
 .heading4 {
   font-family: 'Nunito Sans';
@@ -97,6 +115,9 @@ a {
   color: rgba(255, 255, 255, 0.7);
   width: 35rem;
   margin: 2rem auto; }
+  @media only screen and (max-width: 600px) {
+    .heading6 {
+      font-size: 1.6rem; } }
 
 .heading7 {
   font-family: 'Nunito Sans';
@@ -107,6 +128,12 @@ a {
   letter-spacing: -0.43573px;
   width: 40vw;
   color: rgba(255, 255, 255, 0.7); }
+  @media only screen and (max-width: 600px) {
+    .heading7 {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 24px;
+      width: 84vw; } }
 
 .heading8 {
   font-family: 'Nunito Sans';
@@ -166,16 +193,27 @@ a {
   margin: 2.7rem auto;
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 600px) {
+    .header {
+      display: block;
+      height: 98rem; } }
   .header__discription {
     width: 40vw;
     height: 48rem; }
   .header__pic {
     width: 40vw;
     height: 48rem; }
+    @media only screen and (max-width: 600px) {
+      .header__pic {
+        margin: 1rem auto;
+        width: 84vw; } }
   .header__rectangle {
-    width: 40vw;
+    width: 84vw;
     height: 48rem;
     margin-top: -10rem; }
+    @media only screen and (max-width: 600px) {
+      .header__rectangle {
+        margin-top: -12rem; } }
   .header__btn {
     width: 13.6rem;
     height: 3.8rem;
@@ -183,39 +221,70 @@ a {
     color: white;
     margin-left: 12rem;
     margin-top: 4rem; }
+    @media only screen and (max-width: 600px) {
+      .header__btn {
+        margin-left: 1rem;
+        margin-top: 2rem; } }
   .header__play {
     width: 7rem;
     height: 8rem; }
+    @media only screen and (max-width: 600px) {
+      .header__play {
+        margin-left: 1rem;
+        margin-top: -6rem; } }
   .header__cross {
     width: 4rem;
     height: 4rem;
     margin-top: -4rem;
     margin-left: 40rem;
     transform: rotate(-31.42deg); }
+    @media only screen and (max-width: 600px) {
+      .header__cross {
+        margin-left: 16rem;
+        margin-top: -4rem; } }
   .header__circle {
     width: 6.2rem;
     height: 7.3rem;
     transform: rotate(-27.37deg);
     margin-top: 4rem;
     margin-left: 38rem; }
+    @media only screen and (max-width: 600px) {
+      .header__circle {
+        margin-left: 12rem;
+        margin-top: 2rem; } }
   .header__zig {
     width: 63.05px;
     height: 18.58px;
     margin-right: 2rem; }
+    @media only screen and (max-width: 600px) {
+      .header__zig {
+        margin-top: -4rem;
+        margin-right: 4rem; } }
 
 .cta {
   width: 84vw;
   height: 57rem;
   margin: 12rem auto; }
+  @media only screen and (max-width: 600px) {
+    .cta {
+      height: 70rem; } }
   .cta__text {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    background-color: chartreuse; }
+    @media only screen and (max-width: 600px) {
+      .cta__text {
+        display: block;
+        height: 18rem; } }
   .cta__bg {
     width: 84vw;
     height: 54rem;
     margin-top: -6rem;
     background: url(../img/ctapic4.png);
     background-size: cover; }
+    @media only screen and (max-width: 600px) {
+      .cta__bg {
+        margin-top: 2rem; } }
   .cta__play {
     width: 8.23rem;
     height: 8.23rem;
@@ -226,12 +295,18 @@ a {
   width: 84vw;
   height: 56rem;
   margin: 6rem auto; }
+  @media only screen and (max-width: 600px) {
+    .service {
+      height: 180rem; } }
   .service__cards {
     width: 84vw;
     height: 19rem;
     margin: 1rem auto;
     display: flex;
     justify-content: space-around; }
+    @media only screen and (max-width: 600px) {
+      .service__cards {
+        display: block; } }
   .service__card {
     width: 25.5rem;
     height: 18rem; }
@@ -256,6 +331,12 @@ a {
   width: 74vw;
   height: 45rem;
   margin: 4rem auto; }
+  @media only screen and (max-width: 900px) {
+    .potofolio {
+      height: 55rem; } }
+  @media only screen and (max-width: 600px) {
+    .potofolio {
+      height: 90rem; } }
   .potofolio__cards {
     width: 64vw;
     height: 30rem;
@@ -263,24 +344,36 @@ a {
     margin: 1rem auto;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 600px) {
+      .potofolio__cards {
+        display: block; } }
   .potofolio__card1 {
     width: 22rem;
     height: 17rem;
     margin-top: -2rem;
     background: url(../img/pc1.png);
     border-radius: 8px; }
+    @media only screen and (max-width: 600px) {
+      .potofolio__card1 {
+        margin-top: 2rem; } }
   .potofolio__card2 {
     width: 22rem;
     height: 17rem;
     margin-top: 8rem;
     background: url(../img/pc2.png);
     border-radius: 8px; }
+    @media only screen and (max-width: 600px) {
+      .potofolio__card2 {
+        margin-top: 2rem; } }
   .potofolio__card3 {
     width: 22rem;
     height: 17rem;
     margin-top: 17rem;
     background: url(../img/pc3.png);
     border-radius: 8px; }
+    @media only screen and (max-width: 600px) {
+      .potofolio__card3 {
+        margin-top: 2rem; } }
   .potofolio__circle {
     width: 6.2rem;
     height: 7.3rem;
@@ -291,6 +384,16 @@ a {
     height: 8rem;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 900px) {
+      .potofolio__heading {
+        margin-bottom: 8rem; } }
+  .potofolio__zig {
+    width: 63.05px;
+    height: 18.58px;
+    margin-right: 2rem; }
+    @media only screen and (max-width: 600px) {
+      .potofolio__zig {
+        margin-top: 30rem; } }
 
 .contact {
   width: 84vw;
