@@ -27,14 +27,6 @@ a {
   color: white;
   text-decoration: none; }
 
-.rect1 {
-  width: 309.94px;
-  height: 818.86px;
-  background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.1134) 100%);
-  filter: blur(199.107px);
-  border-radius: 154.972px;
-  transform: rotate(-54.37deg); }
-
 .heading1 {
   font-family: 'Nunito Sans';
   font-style: bold;
@@ -189,11 +181,11 @@ a {
     height: 3.8rem;
     background: #5454D4;
     color: white;
-    margin-left: 12rem; }
+    margin-left: 12rem;
+    margin-top: 4rem; }
   .header__play {
     width: 7rem;
-    height: 8rem;
-    margin-top: -12rem; }
+    height: 8rem; }
   .header__cross {
     width: 4rem;
     height: 4rem;
