@@ -20,6 +20,7 @@
     &__pic{
         width:40vw;
         height: 48rem;
+        margin: 1rem auto;
 
         @include respond(phone) {
             margin: 1rem auto;
@@ -31,11 +32,12 @@
     }
     &__rectangle{
         
-        width:84vw;
+        width:40vw;
         height: 48rem;
         margin-top: -10rem; 
         @include respond(phone) {           
             margin-top: -12rem;
+            width: 84vw;
         }       
     }
 

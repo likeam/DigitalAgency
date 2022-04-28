@@ -74,6 +74,15 @@ a {
     .heading2__1 {
       font-size: 3rem;
       width: 70vw; } }
+  @media only screen and (max-width: 600px) {
+    .heading2__1 {
+      font-size: 3.6rem;
+      width: 84vw;
+      font-weight: 700;
+      background-color: greenyellow;
+      display: inline-block;
+      text-align: left;
+      margin: 1rem auto; } }
 
 .heading3 {
   font-family: 'Nunito Sans';
@@ -202,18 +211,20 @@ a {
     height: 48rem; }
   .header__pic {
     width: 40vw;
-    height: 48rem; }
+    height: 48rem;
+    margin: 1rem auto; }
     @media only screen and (max-width: 600px) {
       .header__pic {
         margin: 1rem auto;
         width: 84vw; } }
   .header__rectangle {
-    width: 84vw;
+    width: 40vw;
     height: 48rem;
     margin-top: -10rem; }
     @media only screen and (max-width: 600px) {
       .header__rectangle {
-        margin-top: -12rem; } }
+        margin-top: -12rem;
+        width: 84vw; } }
   .header__btn {
     width: 13.6rem;
     height: 3.8rem;
@@ -267,11 +278,10 @@ a {
   margin: 12rem auto; }
   @media only screen and (max-width: 600px) {
     .cta {
-      height: 70rem; } }
+      height: 40rem; } }
   .cta__text {
     display: flex;
-    justify-content: space-between;
-    background-color: chartreuse; }
+    justify-content: space-between; }
     @media only screen and (max-width: 600px) {
       .cta__text {
         display: block;
@@ -284,12 +294,17 @@ a {
     background-size: cover; }
     @media only screen and (max-width: 600px) {
       .cta__bg {
+        height: 18rem;
         margin-top: 2rem; } }
   .cta__play {
     width: 8.23rem;
     height: 8.23rem;
     margin: 18rem 65rem;
     cursor: pointer; }
+    @media only screen and (max-width: 600px) {
+      .cta__play {
+        margin-left: 11rem;
+        margin-top: 4rem; } }
 
 .service {
   width: 84vw;
@@ -306,7 +321,8 @@ a {
     justify-content: space-around; }
     @media only screen and (max-width: 600px) {
       .service__cards {
-        display: block; } }
+        display: block;
+        height: 50rem; } }
   .service__card {
     width: 25.5rem;
     height: 18rem; }
@@ -319,13 +335,23 @@ a {
     height: 8rem;
     margin-left: 14rem;
     margin-top: 4rem; }
+    @media only screen and (max-width: 600px) {
+      .service__play {
+        margin: 2rem auto; } }
   .service__cross {
     width: 4rem;
     height: 4rem;
     margin-top: 8rem;
     transform: rotate(-31.42deg); }
+    @media only screen and (max-width: 600px) {
+      .service__cross {
+        margin-left: 1rem;
+        margin-top: 2rem; } }
   .service__heading {
     display: flex; }
+    @media only screen and (max-width: 600px) {
+      .service__heading {
+        display: block; } }
 
 .potofolio {
   width: 74vw;
@@ -346,7 +372,8 @@ a {
     justify-content: space-evenly; }
     @media only screen and (max-width: 600px) {
       .potofolio__cards {
-        display: block; } }
+        display: block;
+        height: 60rem; } }
   .potofolio__card1 {
     width: 22rem;
     height: 17rem;
@@ -355,7 +382,8 @@ a {
     border-radius: 8px; }
     @media only screen and (max-width: 600px) {
       .potofolio__card1 {
-        margin-top: 2rem; } }
+        margin-top: 2rem;
+        height: 30rem; } }
   .potofolio__card2 {
     width: 22rem;
     height: 17rem;
@@ -364,6 +392,7 @@ a {
     border-radius: 8px; }
     @media only screen and (max-width: 600px) {
       .potofolio__card2 {
+        height: 30rem;
         margin-top: 2rem; } }
   .potofolio__card3 {
     width: 22rem;

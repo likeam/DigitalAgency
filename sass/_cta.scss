@@ -4,15 +4,15 @@
     margin: 12rem auto;
     @include respond(phone) {
             
-       height: 70rem;
+       height: 40rem;
     } 
-    
+
   
 
     &__text{
         display: flex;
         justify-content: space-between;
-        background-color: chartreuse;
+     
         @include respond(phone) {
             display: block;
             height: 18rem;
@@ -27,7 +27,7 @@
         background-size: cover;
         @include respond(phone) {
             
-          
+            height: 18rem;
             margin-top: 2rem;
         } 
     }
@@ -36,5 +36,10 @@
         height: 8.23rem;
         margin: 18rem 65rem;
         cursor: pointer;
+        @include respond(phone) {
+            
+            margin-left: 11rem;
+            margin-top: 4rem;
+        } 
     }
 }

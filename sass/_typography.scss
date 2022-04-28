@@ -48,6 +48,16 @@
         font-size: 3rem;
         width: 70vw;
     }
+    @include respond(phone) {
+            
+        font-size: 3.6rem;
+        width: 84vw;
+        font-weight: 700;
+        background-color: greenyellow;
+        display: inline-block;
+        text-align: left;
+        margin: 1rem auto;
+    } 
 }
 .heading3{
     font-family: 'Nunito Sans';

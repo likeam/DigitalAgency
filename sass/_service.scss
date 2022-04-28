@@ -18,7 +18,7 @@
         justify-content: space-around;
         @include respond(phone) {
             display: block;
-            
+            height: 50rem;
         }
     }
     &__card{
@@ -35,15 +35,28 @@
         height: 8rem;
         margin-left: 14rem;
         margin-top: 4rem;
+        @include respond(phone) {
+            
+            margin: 2rem auto;
+        } 
     }
     &__cross{
         width: 4rem;
         height: 4rem;
         margin-top: 8rem;
         transform: rotate(-31.42deg);
+        @include respond(phone) {
+            
+            margin-left: 1rem;
+            margin-top: 2rem;
+        } 
     }
     &__heading{
        
         display: flex;
+        @include respond(phone) {
+            
+           display: block;
+        } 
     }
 }

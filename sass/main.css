@@ -96,6 +96,14 @@ a {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .heading2__1 {
+    font-size: 3.6rem;
+    width: 84vw;
+    font-weight: 700;
+  }
+}
+
 .heading3 {
   font-family: 'Nunito Sans';
   font-size: 3.8rem;
@@ -373,7 +381,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .cta {
-    height: 70rem;
+    height: 40rem;
   }
 }
 
@@ -384,7 +392,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: chartreuse;
 }
 
 @media only screen and (max-width: 600px) {
@@ -404,6 +411,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .cta__bg {
+    height: 18rem;
     margin-top: 2rem;
   }
 }
@@ -413,6 +421,13 @@ a {
   height: 8.23rem;
   margin: 18rem 65rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .cta__play {
+    margin-left: 11rem;
+    margin-top: 4rem;
+  }
 }
 
 .service {
@@ -462,6 +477,12 @@ a {
   margin-top: 4rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .service__play {
+    margin: 2rem auto;
+  }
+}
+
 .service__cross {
   width: 4rem;
   height: 4rem;
@@ -470,10 +491,23 @@ a {
           transform: rotate(-31.42deg);
 }
 
+@media only screen and (max-width: 600px) {
+  .service__cross {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+}
+
 .service__heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .service__heading {
+    display: block;
+  }
 }
 
 .potofolio {

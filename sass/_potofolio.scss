@@ -19,7 +19,8 @@
         display: flex;
         justify-content: space-evenly;  
         @include respond(phone) {
-            display: block;         
+            display: block; 
+            height: 60rem;        
             
         }     
     }
@@ -32,6 +33,7 @@
         @include respond(phone) {
             
             margin-top: 2rem;
+            height: 30rem;
         }  
     }
     &__card2{
@@ -41,7 +43,7 @@
         background: url(../img/pc2.png);
         border-radius: 8px;
         @include respond(phone) {
-            
+            height: 30rem;
             margin-top: 2rem;
         }  
     }
