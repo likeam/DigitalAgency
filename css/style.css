@@ -79,7 +79,6 @@ a {
       font-size: 3.6rem;
       width: 84vw;
       font-weight: 700;
-      background-color: greenyellow;
       display: inline-block;
       text-align: left;
       margin: 1rem auto; } }
@@ -104,6 +103,10 @@ a {
   @media only screen and (max-width: 900px) {
     .heading3__1 {
       font-size: 3rem; } }
+  @media only screen and (max-width: 600px) {
+    .heading3__1 {
+      font-weight: 700;
+      margin: 1rem auto; } }
 
 .heading4 {
   font-family: 'Nunito Sans';
@@ -296,10 +299,13 @@ a {
       .cta__bg {
         height: 18rem;
         margin-top: 2rem; } }
+  .cta__vedio {
+    width: 84vw;
+    height: 54rem; }
   .cta__play {
     width: 8.23rem;
     height: 8.23rem;
-    margin: 18rem 65rem;
+    margin: 24rem 64rem;
     cursor: pointer; }
     @media only screen and (max-width: 600px) {
       .cta__play {
@@ -312,7 +318,7 @@ a {
   margin: 6rem auto; }
   @media only screen and (max-width: 600px) {
     .service {
-      height: 180rem; } }
+      height: 155rem; } }
   .service__cards {
     width: 84vw;
     height: 19rem;
@@ -322,10 +328,11 @@ a {
     @media only screen and (max-width: 600px) {
       .service__cards {
         display: block;
-        height: 50rem; } }
+        height: 55rem; } }
   .service__card {
     width: 25.5rem;
-    height: 18rem; }
+    height: 18rem;
+    margin: 2rem auto; }
   .service__icon {
     width: 45.79px;
     height: 45.79px;
@@ -362,7 +369,7 @@ a {
       height: 55rem; } }
   @media only screen and (max-width: 600px) {
     .potofolio {
-      height: 90rem; } }
+      height: 62rem; } }
   .potofolio__cards {
     width: 64vw;
     height: 30rem;
@@ -373,7 +380,7 @@ a {
     @media only screen and (max-width: 600px) {
       .potofolio__cards {
         display: block;
-        height: 60rem; } }
+        height: 36rem; } }
   .potofolio__card1 {
     width: 22rem;
     height: 17rem;
@@ -382,7 +389,7 @@ a {
     border-radius: 8px; }
     @media only screen and (max-width: 600px) {
       .potofolio__card1 {
-        margin-top: 2rem;
+        margin: 1rem auto;
         height: 30rem; } }
   .potofolio__card2 {
     width: 22rem;
@@ -392,8 +399,8 @@ a {
     border-radius: 8px; }
     @media only screen and (max-width: 600px) {
       .potofolio__card2 {
-        height: 30rem;
-        margin-top: 2rem; } }
+        height: 0rem;
+        margin-top: 0rem; } }
   .potofolio__card3 {
     width: 22rem;
     height: 17rem;
@@ -402,13 +409,18 @@ a {
     border-radius: 8px; }
     @media only screen and (max-width: 600px) {
       .potofolio__card3 {
-        margin-top: 2rem; } }
+        margin-top: 0rem;
+        height: 0rem; } }
   .potofolio__circle {
     width: 6.2rem;
     height: 7.3rem;
     transform: rotate(-27.37deg);
     margin-top: 4rem;
     margin-right: 4rem; }
+    @media only screen and (max-width: 600px) {
+      .potofolio__circle {
+        margin-top: -4rem;
+        margin-left: 18rem; } }
   .potofolio__heading {
     height: 8rem;
     display: flex;
@@ -416,13 +428,18 @@ a {
     @media only screen and (max-width: 900px) {
       .potofolio__heading {
         margin-bottom: 8rem; } }
+    @media only screen and (max-width: 600px) {
+      .potofolio__heading {
+        display: block; } }
   .potofolio__zig {
     width: 63.05px;
     height: 18.58px;
     margin-right: 2rem; }
-    @media only screen and (max-width: 600px) {
-      .potofolio__zig {
-        margin-top: 30rem; } }
+  .potofolio__dublebtn {
+    width: 9rem;
+    height: 4rem;
+    margin-left: 10rem;
+    cursor: pointer; }
 
 .contact {
   width: 84vw;
@@ -432,17 +449,25 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+    @media only screen and (max-width: 600px) {
+      .contact__heading {
+        display: block;
+        margin: 4rem auto; } }
   .contact__btn {
     width: 13.4rem;
     height: 4rem;
     color: white;
     background: #5454D4;
     border-radius: 2.6px; }
+    @media only screen and (max-width: 600px) {
+      .contact__btn {
+        margin: 4rem auto; } }
   .contact__circle {
     width: 6.2rem;
     height: 7.3rem;
     transform: rotate(-27.37deg);
     margin-top: 8rem;
     text-align: left; }
-  .contact__plus {
-    margin-left: 130rem; }
+    @media only screen and (max-width: 600px) {
+      .contact__circle {
+        margin-top: -6rem; } }

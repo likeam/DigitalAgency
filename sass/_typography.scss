@@ -53,7 +53,7 @@
         font-size: 3.6rem;
         width: 84vw;
         font-weight: 700;
-        background-color: greenyellow;
+       
         display: inline-block;
         text-align: left;
         margin: 1rem auto;
@@ -78,7 +78,13 @@
     margin: 1rem auto 1rem 12rem;
     @include respond(tab-port) {
         font-size: 3rem;
+
     }
+    @include respond(phone) {
+            
+        font-weight: 700;
+        margin: 1rem auto;
+    }     
 
 }
 .heading4{

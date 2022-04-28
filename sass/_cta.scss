@@ -31,10 +31,15 @@
             margin-top: 2rem;
         } 
     }
+    &__vedio{
+        width: 84vw;
+        height: 54rem;
+       
+    }
     &__play{
         width: 8.23rem;
         height: 8.23rem;
-        margin: 18rem 65rem;
+        margin: 24rem 64rem;
         cursor: pointer;
         @include respond(phone) {
             

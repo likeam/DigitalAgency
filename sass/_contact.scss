@@ -7,6 +7,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        @include respond(phone) {
+            display: block; 
+            margin: 4rem auto;
+            
+        }     
     }
     &__btn{
         width: 13.4rem;
@@ -14,6 +19,11 @@
         color: white;
         background: #5454D4;
         border-radius: 2.6px;
+        @include respond(phone) {
+            margin: 4rem auto;        
+            
+        }     
+         
     }
     &__circle{
         width: 6.2rem;
@@ -21,9 +31,12 @@
         transform: rotate(-27.37deg);
         margin-top: 8rem;
         text-align: left;
+        @include respond(phone) {
+           
+            margin-top:-6rem;
+            
+        }     
         
     }
-    &__plus{
-        margin-left: 130rem;
-    }
+   
 }
