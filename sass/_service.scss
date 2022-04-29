@@ -2,6 +2,11 @@
     width: 84vw;
     height: 56rem;
     margin: 6rem auto;
+
+    @include respond(tab-land) {
+       
+        height: 65rem;
+    }
     
     @include respond(phone) {
        
@@ -39,6 +44,11 @@
         height: 8rem;
         margin-left: 14rem;
         margin-top: 4rem;
+        @include respond(tab-land) {
+       
+            margin-left: 8rem;
+        }
+
         @include respond(phone) {
             
             margin: 2rem auto;
@@ -49,6 +59,10 @@
         height: 4rem;
         margin-top: 8rem;
         transform: rotate(-31.42deg);
+        @include respond(tab-land) {
+       
+            margin-left: 8rem;
+        }
         @include respond(phone) {
             
             margin-left: 1rem;

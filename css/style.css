@@ -72,8 +72,8 @@ a {
   margin: 0rem 18rem; }
   @media only screen and (max-width: 900px) {
     .heading2__1 {
-      font-size: 3rem;
-      width: 70vw; } }
+      font-size: 2.6rem;
+      width: 75vw; } }
   @media only screen and (max-width: 600px) {
     .heading2__1 {
       font-size: 3.6rem;
@@ -165,6 +165,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 600px) {
+    .navigation {
+      height: 10rem; } }
   .navigation__logo-box {
     width: 8.8rem;
     height: 2.7rem; }
@@ -174,6 +177,12 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 600px) {
+      .navigation__list {
+        height: 10rem;
+        display: block;
+        text-align: center;
+        margin-top: 1rem; } }
   .navigation__btn {
     width: 10.5rem;
     height: 3rem;
@@ -216,6 +225,10 @@ a {
     width: 40vw;
     height: 48rem;
     margin: 1rem auto; }
+    @media only screen and (max-width: 75em) {
+      .header__pic {
+        width: 30vw;
+        height: 38rem; } }
     @media only screen and (max-width: 600px) {
       .header__pic {
         margin: 1rem auto;
@@ -224,6 +237,11 @@ a {
     width: 40vw;
     height: 48rem;
     margin-top: -10rem; }
+    @media only screen and (max-width: 75em) {
+      .header__rectangle {
+        margin-top: 0rem;
+        width: 30vw;
+        height: 34rem; } }
     @media only screen and (max-width: 600px) {
       .header__rectangle {
         margin-top: -12rem;
@@ -242,6 +260,10 @@ a {
   .header__play {
     width: 7rem;
     height: 8rem; }
+    @media only screen and (max-width: 75em) {
+      .header__play {
+        margin-left: 1rem;
+        margin-top: -6rem; } }
     @media only screen and (max-width: 600px) {
       .header__play {
         margin-left: 1rem;
@@ -252,6 +274,10 @@ a {
     margin-top: -4rem;
     margin-left: 40rem;
     transform: rotate(-31.42deg); }
+    @media only screen and (max-width: 75em) {
+      .header__cross {
+        margin-left: 12rem;
+        margin-top: -6rem; } }
     @media only screen and (max-width: 600px) {
       .header__cross {
         margin-left: 16rem;
@@ -262,6 +288,10 @@ a {
     transform: rotate(-27.37deg);
     margin-top: 4rem;
     margin-left: 38rem; }
+    @media only screen and (max-width: 75em) {
+      .header__circle {
+        margin-left: 8rem;
+        margin-top: -4rem; } }
     @media only screen and (max-width: 600px) {
       .header__circle {
         margin-left: 12rem;
@@ -307,6 +337,9 @@ a {
     height: 8.23rem;
     margin: 24rem 64rem;
     cursor: pointer; }
+    @media only screen and (max-width: 75em) {
+      .cta__play {
+        margin: 16rem 32rem; } }
     @media only screen and (max-width: 600px) {
       .cta__play {
         margin-left: 11rem;
@@ -316,6 +349,9 @@ a {
   width: 84vw;
   height: 56rem;
   margin: 6rem auto; }
+  @media only screen and (max-width: 75em) {
+    .service {
+      height: 65rem; } }
   @media only screen and (max-width: 600px) {
     .service {
       height: 155rem; } }
@@ -342,6 +378,9 @@ a {
     height: 8rem;
     margin-left: 14rem;
     margin-top: 4rem; }
+    @media only screen and (max-width: 75em) {
+      .service__play {
+        margin-left: 8rem; } }
     @media only screen and (max-width: 600px) {
       .service__play {
         margin: 2rem auto; } }
@@ -471,3 +510,58 @@ a {
     @media only screen and (max-width: 600px) {
       .contact__circle {
         margin-top: -6rem; } }
+
+.footer {
+  width: 84vw;
+  height: 10rem;
+  margin: 2.7rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media only screen and (max-width: 600px) {
+    .footer {
+      display: block;
+      text-align: center; } }
+  .footer__logo-box {
+    width: 8.8rem;
+    height: 2.7rem;
+    margin: 2rem auto; }
+  .footer__list {
+    width: 27rem;
+    height: 1.6rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    @media only screen and (max-width: 600px) {
+      .footer__list {
+        width: 84vw;
+        display: block;
+        height: 6.8rem;
+        text-align: center; } }
+  .footer__btn {
+    width: 10.5rem;
+    height: 3rem;
+    font-family: Nunito Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 6px; }
+  .footer__logo {
+    width: 8.8rem;
+    height: 2.7rem; }
+  .footer__item {
+    font-family: Nunito Sans;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    text-align: right;
+    text-decoration: none;
+    color: white; }
+    @media only screen and (max-width: 600px) {
+      .footer__item {
+        text-align: center; } }
