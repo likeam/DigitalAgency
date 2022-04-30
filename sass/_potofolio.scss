@@ -97,10 +97,15 @@
                      
     }
     &__dublebtn{
+        @include respond(phone) {
         width: 9rem;
         height: 4rem;
         margin-left: 10rem;
-        cursor: pointer;        
+        cursor: pointer;  }
+        @include respond(tab-port) {
+            height: 0rem;
+            width: 0rem;
+        }       
     }
 }
 
