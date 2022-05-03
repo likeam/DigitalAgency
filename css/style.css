@@ -179,10 +179,8 @@ a {
     justify-content: space-between; }
     @media only screen and (max-width: 600px) {
       .navigation__list {
-        height: 10rem;
-        display: block;
-        text-align: center;
-        margin-top: 1rem; } }
+        height: 0rem;
+        width: 0rem; } }
   .navigation__btn {
     width: 10.5rem;
     height: 3rem;
@@ -196,6 +194,11 @@ a {
     border: 1px solid white;
     cursor: pointer;
     border-radius: 6px; }
+    @media only screen and (max-width: 600px) {
+      .navigation__btn {
+        height: 0rem;
+        width: 0rem;
+        font-size: 0rem; } }
   .navigation__logo {
     width: 8.8rem;
     height: 2.7rem; }
@@ -207,6 +210,30 @@ a {
     text-align: right;
     text-decoration: none;
     color: white; }
+    @media only screen and (max-width: 600px) {
+      .navigation__item {
+        height: 0rem;
+        width: 0rem;
+        font-size: 0rem; } }
+  @media only screen and (max-width: 600px) {
+    .navigation__burger-btn {
+      border: none;
+      border-radius: 0;
+      background-color: #fff;
+      height: 2px;
+      width: 4.5rem;
+      margin-top: 4rem;
+      margin-left: 1rem; }
+      .navigation__burger-btn::before, .navigation__burger-btn::after {
+        background-color: #fff;
+        height: 2px;
+        width: 4.5rem;
+        content: "";
+        display: block; }
+      .navigation__burger-btn::before {
+        transform: translateY(-1.5rem); }
+      .navigation__burger-btn::after {
+        transform: translateY(1.3rem); } }
 
 .header {
   width: 84vw;
