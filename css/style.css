@@ -548,7 +548,7 @@ a {
 
 .footer {
   width: 84vw;
-  height: 10rem;
+  height: 14rem;
   margin: 2.7rem auto;
   display: flex;
   justify-content: space-around;
@@ -556,7 +556,8 @@ a {
   @media only screen and (max-width: 600px) {
     .footer {
       display: block;
-      text-align: center; } }
+      text-align: center;
+      margin: 1rem auto; } }
   .footer__logo-box {
     width: 8.8rem;
     height: 2.7rem;
@@ -569,10 +570,12 @@ a {
     justify-content: space-around; }
     @media only screen and (max-width: 600px) {
       .footer__list {
-        width: 84vw;
+        width: 30vw;
         display: block;
         height: 6.8rem;
-        text-align: center; } }
+        margin: 1rem auto;
+        text-align: center;
+        justify-content: center; } }
   .footer__logo {
     width: 8.8rem;
     height: 2.7rem; }
@@ -588,4 +591,7 @@ a {
     justify-content: space-between; }
     @media only screen and (max-width: 600px) {
       .footer__item {
-        text-align: center; } }
+        margin: 1rem auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center; } }

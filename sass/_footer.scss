@@ -1,6 +1,6 @@
 .footer{
     width: 84vw;
-    height: 10rem;
+    height: 14rem;
     margin: 2.7rem auto;    
 
     display: flex;
@@ -10,7 +10,10 @@
     @include respond(phone) {        
     
         display: block;
-        text-align: center;         
+        text-align: center; 
+        
+        margin: 1rem auto;  
+        
         
     } 
 
@@ -32,17 +35,21 @@
         justify-content: space-around;  
        
         @include respond(phone) {
-        width: 84vw;
-          display: block;
-          height: 6.8rem;
-          text-align: center;
-         
+        width: 30vw;
+        display: block;
+        height: 6.8rem;
+        margin: 1rem auto; 
+        text-align: center;
+
+        justify-content: center;
+        
         }     
     }   
 
     &__logo{
         width: 8.8rem;
-        height: 2.7rem;       
+        height: 2.7rem;  
+   
     }
 
     &__item{
@@ -58,8 +65,13 @@
        
 
         @include respond(phone) {
-        
-            text-align: center;                       
+
+   
+            margin: 1rem auto;    
+            text-align: center;
+            justify-content: center;  
+            align-items: center;
+                       
         }     
         
     }
